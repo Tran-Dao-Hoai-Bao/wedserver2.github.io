@@ -1,0 +1,31 @@
+/*Màn hình 1*/
+#Screen_Manu {
+    position: absolute; 
+    left: 215px; top: 11px; 
+    width: 800px; height: 686px;
+    background-color: rgb(15, 228, 210); 
+}
+
+/*//////////////Hiển thị dữ liệu bảng 1 - Start/////////////////*/
+#div_Table_01 {
+    position: absolute;
+    left: 14px; top: 165px;
+    width: 800px; height: 185px;
+    overflow-y: scroll;
+}
+/*Table*/
+#table_01 {
+    position: absolute;
+    width:100%;
+}
+#table_01 tr{
+    cursor: pointer;
+}
+#table_01 tr:hover{background-color: #ddd;}
+#table_01   { overflow: auto; }
+#table_01 thead th { position: sticky; top: 0;  }
+/* Just common table stuff. Really. */
+#table_01  { border-collapse: collapse; width: 100%; }
+#table_01 th, td { padding: 8px 16px; }
+#table_01 th     { background:#eee; }
+/*//////////////Hiển thị dữ liệu bảng 1 - end/////////////////*/

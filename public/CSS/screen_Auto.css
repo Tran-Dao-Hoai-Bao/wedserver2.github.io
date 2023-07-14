@@ -1,0 +1,239 @@
+/*Màn hình AUTO*/
+#Screen_Auto {
+    position: absolute; 
+    left: 215px; top: 11px; 
+    width: 800px; height: 686px;
+    background-color: rgb(15, 228, 210); 
+}
+/*Van 1*/
+#scrAuto_Valve_1 {
+    position: absolute;
+    left: 360px;
+    top: 225px;
+    width: 80px;
+    height: 80px;
+}
+/*Van 2*/
+#scrAuto_Valve_2 {
+    position: absolute;
+    left: 589px;
+    top: 206px;
+    width: 80px;
+    height: 80px;
+}
+
+/*Van 3*/
+#scrAuto_Valve_3 {
+    position: absolute;
+    left: 714px;
+    top: 220px;
+    width: 80px;
+    height: 80px;
+}
+/*Van 4*/
+#scrAuto_Valve_4 {
+    position: absolute;
+    left: 875px;
+    top: 240px;
+    width: 80px;
+    height: 80px;
+}
+/*Động cơ trộn*/
+#scrAuto_Motor_1 {
+    position: absolute;
+    left: 943px;
+    top: 386px;
+    width: 90px;
+    height: 90px;
+}
+
+/*Cảm biến*/
+#scrAuto_Sensor {
+    position: absolute;
+    left: 550px;
+    top: 583px;
+    width: 60px;
+    height: 30px;
+}
+
+
+/*Nút nhấn chế độ tự động*/
+#bttstart {
+    border: none;
+    background-color: rgb(0, 255, 13);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 40px;
+    top: 110px;
+}
+
+/*Nút nhấn chế độ bằng tay*/
+#bttstop {
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 140px;
+    top: 110px;
+}
+
+/*Nút nhấn chế độ xác nhận*/
+#bttemo {
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    left: 40px;
+    top: 160px;
+}
+
+
+/*Giá trị thực tế Weight 1*/
+#act_Weight1 {
+    position: absolute; 
+    left: 398px; top: 98px; 
+    width: 80px; height: 20px;
+}
+/*Giá trị thực tế Weight 2*/
+#act_Weight2 {
+    position: absolute;
+    left: 658px;
+    top: 98px;
+    width: 80px;
+    height: 20px;
+}
+/*Giá trị thực tế Weight 3*/
+#act_Weight3 {
+    position: absolute;
+    left: 886px;
+    top: 98px;
+    width: 80px;
+    height: 20px;
+}
+/*Giá trị thực tế Weight 4*/
+#act_Weight4 {
+    position: absolute;
+    left: 1109px;
+    top: 98px;
+    width: 80px;
+    height: 20px;
+}
+
+/*Giá trị thực tế thời gian*/
+#act_lon {
+    position: absolute;
+    left: 1102px;
+    top: 445px;
+    width: 80px;
+    height: 20px;
+}
+
+
+/*Nút nhấn LƯU*/
+#btt_scrAuto_Save {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 194px;
+    top: 490px;
+}
+/*Nút nhấn SỬA*/
+#btt_scrAuto_Edit {
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 194px;
+    top: 490px;
+}
+
+
+
+/*Giá trị cài đặt liệu 1*/
+#set_Weight1 {
+    position: absolute; 
+    left: 135px; top: 292px; 
+    width: 60px; height: 20px;
+}
+
+/*Giá trị cài đặt liệu 2*/
+#set_Weight2 {
+    position: absolute; 
+    left: 135px; top: 326px; 
+    width: 60px; height: 20px;
+}
+/*Giá trị cài đặt liệu 3*/
+#set_Weight3 {
+    position: absolute;
+    left: 135px;
+    top: 358px;
+    width: 60px;
+    height: 20px;
+}
+/*Giá trị cài đặt liệu 4*/
+#set_Weight4 {
+    position: absolute;
+    left: 135px;
+    top: 390px;
+    width: 60px;
+    height: 20px;
+}
+
+/*Giá trị cài đặt thời gian*/
+#set_lon {
+    position: absolute;
+    left: 135px;
+    top: 461px;
+    width: 60px;
+    height: 20px;
+}
+#set_thetich {
+    position: absolute;
+    left: 135px;
+    top: 427px;
+    width: 60px;
+    height: 20px;
+}
+#set_solantron{
+    position: absolute;
+    left: 135px;
+    top: 489px;
+    width: 57px;
+    height: 20px;
+}
